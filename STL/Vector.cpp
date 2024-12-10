@@ -20,6 +20,11 @@ int main(){
 
 cout<<"Value at index 0 "<<vec[0]<<" or "<<vec.at(0)<<endl;
 
+// Front and back
+
+cout<<"Front "<< vec.front()<< endl;
+cout<<"Back "<< vec.back()<< endl;
+
     cout << vec.size() <<endl;
     cout<< vec.capacity() <<endl;
     return 0;
