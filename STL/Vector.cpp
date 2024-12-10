@@ -15,7 +15,10 @@ int main(){
         cout<<i<<" ";
     }
     cout<<endl;
+// In order to print a value of a vector at a particular index we can use 
+//either vec.at() or vec[]
 
+cout<<"Value at index 0 "<<vec[0]<<" or "<<vec.at(0)<<endl;
 
     cout << vec.size() <<endl;
     cout<< vec.capacity() <<endl;
